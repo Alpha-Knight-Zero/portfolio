@@ -24,19 +24,19 @@ const Navbar = () => {
 				<NavItem
 					page={page}
 					setPage={setPage}
-					route={pathname}
+					route='/'
 					section='About'
 				/>
 				<NavItem
 					page={page}
 					setPage={setPage}
-					route={pathname}
+					route='/resume'
 					section='Resume'
 				/>
 				<NavItem
 					page={page}
 					setPage={setPage}
-					route={pathname}
+					route='/projects'
 					section='Projects'
 				/>
 			</div>

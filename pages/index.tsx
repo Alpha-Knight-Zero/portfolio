@@ -1,7 +1,5 @@
-import { GetServerSidePropsContext, GetStaticPropsContext } from 'next';
 import Head from 'next/head';
-import Portfolio from '../components/Portfolio';
-import Sidebar from '../components/Sidebar';
+import About from '../components/About';
 
 const index = ({ domains }: { domains: object }) => {
 	return (
@@ -14,10 +12,7 @@ const index = ({ domains }: { domains: object }) => {
 				/>
 			</Head>
 
-			<div className='grid grid-cols-12 px-6 my-4 gap-7 md:gap-4 '>
-				<Sidebar />
-				<Portfolio />
-			</div>
+			<About />
 		</div>
 	);
 };

@@ -1,8 +1,9 @@
 import { RiComputerLine, RiDatabaseLine } from 'react-icons/ri';
-import { IDomains } from './types';
+import { IDomains, ISkill } from './types';
 import { FaServer } from 'react-icons/fa';
 import { MdDeveloperMode } from 'react-icons/md';
 import { AiOutlineApi } from 'react-icons/ai';
+import { BsCircleFill } from 'react-icons/bs';
 
 export const domainsOfExpertise: IDomains[] = [
 	{
@@ -39,5 +40,78 @@ export const domainsOfExpertise: IDomains[] = [
 		description:
 			'When not coding I like to read thriller / suspense novels as well as webnovels (mostly chinese). I am an avid anime watcher and sometimes indulge myself in playing FIFA.',
 		Icon: RiComputerLine,
+	},
+];
+
+export const languagesAndFrameworks: ISkill[] = [
+	{
+		title: 'C++',
+		level: '70%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'Java',
+		level: '50%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'Python',
+		level: '65%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'HTML',
+		level: '85%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'CSS',
+		level: '40%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'Javascript',
+		level: '60%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'ReactJS',
+		level: '70%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'NextJS',
+		level: '85%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'BootStrap',
+		level: '90%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'Tailwind',
+		level: '90%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'React Native',
+		level: '40%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'Scikit-Learn',
+		level: '85%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'Tenserflow',
+		level: '65%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'SQL',
+		level: '65%',
+		Icon: BsCircleFill,
 	},
 ];
