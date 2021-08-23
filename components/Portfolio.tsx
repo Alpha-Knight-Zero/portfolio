@@ -3,7 +3,6 @@ import Domaincard from './Domaincard';
 import Navbar from './Navbar';
 
 const Portfolio = () => {
-	console.log('Domains : ', domainsOfExpertise);
 	return (
 		<div className='flex flex-col px-2 bg-white rounded-lg col-span-full md:col-span-9'>
 			<Navbar />
