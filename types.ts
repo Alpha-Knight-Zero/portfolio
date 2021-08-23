@@ -5,3 +5,9 @@ export interface IDomains {
 	description: string;
 	Icon: IconType;
 }
+
+export interface ISkill {
+	title: string;
+	level: string;
+	Icon: IconType;
+}

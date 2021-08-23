@@ -9,7 +9,7 @@ const Portfolio = () => {
 			<Navbar />
 			<div className='flex flex-col flex-grow px-4 pt-1 '>
 				<p className='my-3 text-justif'>
-					{`I am a Sophomore in Indian Institute of Information Technology, Pune (2020-2024).
+					{`I am a Sophomore in Indian Institute of Information Technology, Pune .
 					I have been doing Web Development since the begining of 2021. I like to do Machine
 					Learning and Deep Learning Projects as well. Currently I am
 					planning to make a website that uses tenserflow.js along
