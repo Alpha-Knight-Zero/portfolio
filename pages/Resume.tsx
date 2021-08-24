@@ -48,7 +48,7 @@ const Resume = () => {
 					</p>
 					<div className='my-2'>
 						{frameworksandLibraries.map((framework) => (
-							<SkillBar data={framework} />
+							<SkillBar data={framework} key={framework.title} />
 						))}
 					</div>
 				</div>

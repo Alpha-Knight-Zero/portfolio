@@ -12,7 +12,7 @@ const Portfolio = () => {
 					with Next.js and PodtgreSQL.`}
 			</p>
 			<div
-				className='flex-grow p-4 mt-5 bg-gray-400 rounded-lg'
+				className='flex-grow p-4 mt-5 bg-gray-400 rounded-lg dark:bg-[#0a0b1e]'
 				style={{
 					marginLeft: '-1.5rem',
 					marginRight: '-1.5rem',
@@ -23,7 +23,7 @@ const Portfolio = () => {
 				</h1>
 				<div className='grid gap-5 md:grid-cols-2'>
 					{domainsOfExpertise.map((domain) => (
-						<div className='bg-gray-200 rounded-2xl md:col-span-1'>
+						<div className='bg-gray-200 dark:bg-[#16181d] rounded-2xl md:col-span-1'>
 							<Domaincard domain={domain} />
 						</div>
 					))}

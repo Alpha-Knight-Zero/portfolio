@@ -16,7 +16,7 @@ const Navbar = () => {
 	}, []);
 
 	return (
-		<div className='flex justify-between my-2 ml-4 mr-1'>
+		<div className='flex justify-between my-2 ml-4 mr-1 '>
 			<div className='ml-2 text-xl font-bold text-green-400 border-b-4 border-green-500 md:text-2xl'>
 				{page}
 			</div>
