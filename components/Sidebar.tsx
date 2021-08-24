@@ -3,7 +3,7 @@ import { LocationMarkerIcon, FolderIcon } from '@heroicons/react/outline';
 
 const Sidebar = () => {
 	return (
-		<div className='items-center justify-center p-2 text-center bg-white col-span-full md:col-span-3 rounded-2xl'>
+		<div className='items-center justify-center p-2 text-center bg-white col-span-full md:col-span-3 rounded-2xl dark:bg-black'>
 			<Image
 				src={
 					'https://avatars.githubusercontent.com/u/65271592?s=400&u=7edb3ac66593dc688402659609cb7d6f26af4051&v=4'

@@ -43,7 +43,12 @@ export const domainsOfExpertise: IDomains[] = [
 	},
 ];
 
-export const languagesAndFrameworks: ISkill[] = [
+export const languages: ISkill[] = [
+	{
+		title: 'C',
+		level: '60%',
+		Icon: BsCircleFill,
+	},
 	{
 		title: 'C++',
 		level: '70%',
@@ -56,7 +61,7 @@ export const languagesAndFrameworks: ISkill[] = [
 	},
 	{
 		title: 'Python',
-		level: '65%',
+		level: '75%',
 		Icon: BsCircleFill,
 	},
 	{
@@ -64,19 +69,29 @@ export const languagesAndFrameworks: ISkill[] = [
 		level: '85%',
 		Icon: BsCircleFill,
 	},
-	{
-		title: 'CSS',
-		level: '40%',
-		Icon: BsCircleFill,
-	},
+
 	{
 		title: 'Javascript',
-		level: '60%',
+		level: '65%',
+		Icon: BsCircleFill,
+	},
+
+	{
+		title: 'SQL',
+		level: '65%',
+		Icon: BsCircleFill,
+	},
+];
+
+export const frameworksandLibraries: ISkill[] = [
+	{
+		title: 'CSS',
+		level: '45%',
 		Icon: BsCircleFill,
 	},
 	{
 		title: 'ReactJS',
-		level: '70%',
+		level: '75%',
 		Icon: BsCircleFill,
 	},
 	{
@@ -85,18 +100,13 @@ export const languagesAndFrameworks: ISkill[] = [
 		Icon: BsCircleFill,
 	},
 	{
-		title: 'BootStrap',
+		title: 'Bootstrap',
 		level: '90%',
 		Icon: BsCircleFill,
 	},
 	{
 		title: 'Tailwind',
 		level: '90%',
-		Icon: BsCircleFill,
-	},
-	{
-		title: 'React Native',
-		level: '40%',
 		Icon: BsCircleFill,
 	},
 	{
@@ -110,8 +120,8 @@ export const languagesAndFrameworks: ISkill[] = [
 		Icon: BsCircleFill,
 	},
 	{
-		title: 'SQL',
-		level: '65%',
+		title: 'PostgreSQL',
+		level: '75%',
 		Icon: BsCircleFill,
 	},
 ];
