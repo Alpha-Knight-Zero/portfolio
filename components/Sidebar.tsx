@@ -14,13 +14,12 @@ const Sidebar = () => {
 	return (
 		<div className='items-center justify-center p-2 text-center bg-white col-span-full md:col-span-3 rounded-2xl dark:bg-dark-500 shadow-custom-light dark:shadow-custom-dark'>
 			<Image
-				src={
-					'https://avatars.githubusercontent.com/u/65271592?s=400&u=7edb3ac66593dc688402659609cb7d6f26af4051&v=4'
-				}
+				quality='100'
+				src='/dp.jpeg'
 				loading='lazy'
 				layout='intrinsic'
-				height={200}
-				width={200}
+				height={150}
+				width={150}
 				alt='Developer Profile Picture'
 				className='mx-auto rounded-full'
 			/>
@@ -30,35 +29,52 @@ const Sidebar = () => {
 			<p className='px-2 py-2 my-3 font-bold bg-gray-200 rounded-full dark:bg-dark-200'>
 				Web Portfolio
 			</p>
-			<div className='flex justify-around pt-1 my-4 rounded-full md:w-full bg-gradient-to-r from-green-400 to to-blue-400'>
-				<a href='https://github.com/Alpha-Knight-Zero'>
-					<Image
-						className='cursor-pointer hover:scale-110'
-						src='/github-fill.svg'
-						loading='lazy'
-						height={36}
-						width={36}
-					/>
-				</a>
-				<a href='https://www.linkedin.com/in/pushkal-pandey/'>
-					<Image
-						className='cursor-pointer hover:scale-110'
-						src='/linkedin-box-fill.svg'
-						loading='lazy'
-						height={36}
-						width={36}
-					/>
-				</a>
+			<div className='flex justify-around md:p-2 md:space-x-6 '>
+				<div className='flex justify-around pt-1 my-4 rounded-full md:w-full bg-gradient-to-r from-green-400 to to-blue-400'>
+					<a
+						target='_blank'
+						href='https://github.com/Alpha-Knight-Zero'
+					>
+						<Image
+							quality='100'
+							className='cursor-pointer hover:scale-110'
+							src='/github-fill.svg'
+							loading='lazy'
+							height={36}
+							width={36}
+							layout='intrinsic'
+						/>
+					</a>
+				</div>
+				<div className='flex justify-around pt-1 my-4 rounded-full md:w-full bg-gradient-to-r from-green-400 to to-blue-400'>
+					<a
+						target='_blank'
+						href='https://www.linkedin.com/in/pushkal-pandey'
+					>
+						<Image
+							quality='100'
+							className='cursor-pointer hover:scale-110'
+							src='/linkedin-box-fill.svg'
+							loading='lazy'
+							height={36}
+							width={36}
+							layout='intrinsic'
+						/>
+					</a>
+				</div>
 			</div>
 			<a
+				target='_blank'
 				className='flex items-center justify-center px-2 py-2 my-3 tracking-wider transition-shadow transform bg-gray-200 rounded-full dark:bg-dark-200 group hover:bg-blue-200 hover:font-semibold whitespace-nowrap'
-				href=''
+				href='/Resume.pdf'
+				download='Resume.pdf'
 			>
 				<FolderIcon className='w-6 h-6 mx-2 group-hover:scale-110' />
-				My Resume
+				Download Resume
 			</a>
 
 			<a
+				target='_blank'
 				href='https://www.google.com/maps/search/?api=1&query=prayagraj'
 				className='flex items-center justify-center p-2 space-x-2 font-semibold hover:underline'
 			>
