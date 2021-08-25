@@ -3,11 +3,10 @@ import { LocationMarkerIcon, FolderIcon } from '@heroicons/react/outline';
 import { FaRegLightbulb } from 'react-icons/fa';
 import { FiMoon } from 'react-icons/fi';
 import { useTheme } from 'next-themes';
-import { useEffect, useState } from 'react';
 
 const Sidebar = () => {
 	const { theme, setTheme } = useTheme();
-	if (theme == undefined) {
+	if (!theme) {
 		setTheme('light');
 	}
 	const changeTheme = () => {
