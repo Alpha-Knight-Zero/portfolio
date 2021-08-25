@@ -3,14 +3,8 @@ import { LocationMarkerIcon, FolderIcon } from '@heroicons/react/outline';
 import { FaRegLightbulb } from 'react-icons/fa';
 import { FiMoon } from 'react-icons/fi';
 import { useTheme } from 'next-themes';
-import { useEffect, useState } from 'react';
 
 const Sidebar = () => {
-	const [mounted, setMounted] = useState(false);
-
-	useEffect(() => setMounted(true), []);
-
-	if (!mounted) return null;
 	const { theme, setTheme } = useTheme();
 
 	const changeTheme = () => {
@@ -103,17 +97,18 @@ const Sidebar = () => {
 			</button>
 
 			<div className='flex justify-around my-4'>
-				{theme == 'dark' && (
+				{theme == 'dark' ? (
 					<FaRegLightbulb
 						className='items-center w-12 h-12 py-2 mx-2 my-2 text-yellow-400 hover:cursor-pointer '
 						onClick={changeTheme}
 					/>
-				)}
-				{theme == 'light' && (
-					<FiMoon
-						className='items-center w-12 h-12 py-2 mx-2 my-2 text-black hover:cursor-pointer'
-						onClick={changeTheme}
-					/>
+				) : (
+					theme == 'light' && (
+						<FiMoon
+							className='items-center w-12 h-12 py-2 mx-2 my-2 text-black hover:cursor-pointer'
+							onClick={changeTheme}
+						/>
+					)
 				)}
 			</div>
 		</div>
