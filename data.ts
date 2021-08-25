@@ -110,6 +110,11 @@ export const frameworksandLibraries: ISkill[] = [
 		Icon: BsCircleFill,
 	},
 	{
+		title: 'Framer',
+		level: '30%',
+		Icon: BsCircleFill,
+	},
+	{
 		title: 'Scikit-Learn',
 		level: '75%',
 		Icon: BsCircleFill,
@@ -135,6 +140,15 @@ export const projects: IProject[] = [
 		deployment_url: 'https://googol-alpha-knight-zero.vercel.app',
 		description: 'A frontend that uses Google API to give search results.',
 		key_techs: ['NextJS', 'TailwindCSS', 'TypeScript'],
+	},
+	{
+		title: 'Web Portfolio',
+		repo_url: 'https://github.com/Alpha-Knight-Zero/portfolio',
+		thumbnail: '/thumbnails/Portfolio.png',
+		category: ['ReactJS'],
+		deployment_url: 'https://portfolio-three-weld.vercel.app/',
+		description: 'My Web Porfolio. ',
+		key_techs: ['NextJS', 'TailwindCSS', 'TypeScript', 'Framer'],
 	},
 	{
 		title: 'Bloogg',
