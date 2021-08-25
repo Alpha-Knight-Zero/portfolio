@@ -41,6 +41,7 @@ const Sidebar = () => {
 						target='_blank'
 						href='https://github.com/Alpha-Knight-Zero'
 						aria-label='Github'
+						rel='noreferrer'
 					>
 						<Image
 							quality='100'
@@ -50,6 +51,7 @@ const Sidebar = () => {
 							height={36}
 							width={36}
 							layout='intrinsic'
+							alt='My Github'
 						/>
 					</a>
 				</div>
@@ -58,6 +60,7 @@ const Sidebar = () => {
 						target='_blank'
 						href='https://www.linkedin.com/in/pushkal-pandey'
 						area-lable='Linkedin'
+						rel='noreferrer'
 					>
 						<Image
 							quality='100'
@@ -67,6 +70,7 @@ const Sidebar = () => {
 							height={36}
 							width={36}
 							layout='intrinsic'
+							alt='My LinkedIn'
 						/>
 					</a>
 				</div>
@@ -84,6 +88,7 @@ const Sidebar = () => {
 			<a
 				target='_blank'
 				href='https://www.google.com/maps/search/?api=1&query=prayagraj'
+				rel='noreferrer'
 				className='flex items-center justify-center p-2 space-x-2 font-semibold hover:underline'
 			>
 				<LocationMarkerIcon className='w-4 h-4 mr-2' />
