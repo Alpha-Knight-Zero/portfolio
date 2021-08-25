@@ -1,5 +1,5 @@
 import { RiComputerLine, RiDatabaseLine } from 'react-icons/ri';
-import { IDomains, ISkill } from './types';
+import { IDomains, IProject, ISkill } from './types';
 import { FaServer } from 'react-icons/fa';
 import { MdDeveloperMode } from 'react-icons/md';
 import { AiOutlineApi } from 'react-icons/ai';
@@ -46,33 +46,33 @@ export const domainsOfExpertise: IDomains[] = [
 export const languages: ISkill[] = [
 	{
 		title: 'C',
-		level: '60%',
+		level: '65%',
 		Icon: BsCircleFill,
 	},
 	{
 		title: 'C++',
-		level: '70%',
+		level: '60%',
 		Icon: BsCircleFill,
 	},
 	{
 		title: 'Java',
-		level: '50%',
+		level: '40%',
 		Icon: BsCircleFill,
 	},
 	{
 		title: 'Python',
-		level: '75%',
+		level: '70%',
 		Icon: BsCircleFill,
 	},
 	{
 		title: 'HTML',
-		level: '85%',
+		level: '80%',
 		Icon: BsCircleFill,
 	},
 
 	{
 		title: 'Javascript',
-		level: '65%',
+		level: '55%',
 		Icon: BsCircleFill,
 	},
 
@@ -91,37 +91,86 @@ export const frameworksandLibraries: ISkill[] = [
 	},
 	{
 		title: 'ReactJS',
-		level: '75%',
-		Icon: BsCircleFill,
-	},
-	{
-		title: 'NextJS',
-		level: '85%',
-		Icon: BsCircleFill,
-	},
-	{
-		title: 'Bootstrap',
-		level: '90%',
-		Icon: BsCircleFill,
-	},
-	{
-		title: 'Tailwind',
-		level: '90%',
-		Icon: BsCircleFill,
-	},
-	{
-		title: 'Scikit-Learn',
-		level: '85%',
-		Icon: BsCircleFill,
-	},
-	{
-		title: 'Tenserflow',
 		level: '65%',
 		Icon: BsCircleFill,
 	},
 	{
-		title: 'PostgreSQL',
+		title: 'NextJS',
+		level: '70%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'Bootstrap',
+		level: '80%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'Tailwind',
+		level: '80%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'Scikit-Learn',
 		level: '75%',
 		Icon: BsCircleFill,
+	},
+	{
+		title: 'Tenserflow',
+		level: '60%',
+		Icon: BsCircleFill,
+	},
+	{
+		title: 'PostgreSQL',
+		level: '65%',
+		Icon: BsCircleFill,
+	},
+];
+
+export const projects: IProject[] = [
+	{
+		title: 'Googol',
+		repo_url: 'https://github.com/Alpha-Knight-Zero/googol',
+		thumbnail: '/thumbnails/Googol.png',
+		category: ['ReactJS'],
+		deployment_url: 'https://googol-alpha-knight-zero.vercel.app',
+		description: 'A frontend that uses Google API to give search results.',
+		key_techs: ['NextJS', 'TailwindCSS', 'TypeScript'],
+	},
+	{
+		title: 'Bloogg',
+		repo_url: 'https://github.com/Alpha-Knight-Zero/blogr-nextjs-prisma',
+		thumbnail: '/thumbnails/Prisma_blog.png',
+		category: ['ReactJS', 'PostgreSQL'],
+		deployment_url: 'hhttps://blogr-nextjs-prisma-theta.vercel.app/',
+		description:
+			'A barebones blog site that has user authentication and is connected to an SQL database.',
+		key_techs: ['NextJS', 'Prisma', 'PostgreSQL', 'NextAuth', 'TypeScript'],
+	},
+	{
+		title: 'Hulu-PP',
+		repo_url: 'https://github.com/Alpha-Knight-Zero/hulu-pp',
+		thumbnail: '/thumbnails/Hulupp.png',
+		category: ['ReactJS'],
+		deployment_url: 'https://hulu-frontend-yt.vercel.app/',
+		description:
+			'A frontend that uses Hulu API to to emulate Hulu website frontend.',
+		key_techs: ['NextJS', 'TailwindCSS'],
+	},
+	{
+		title: 'Fb-Home-Clone',
+		repo_url: 'https://github.com/Alpha-Knight-Zero/facebook-home-2',
+		thumbnail: '/thumbnails/FbHC.png',
+		category: ['ReactJS', 'Firestore'],
+		deployment_url:
+			'https://facebook-home-clone-9tchxg4dg-alpha-knight-zero.vercel.app/',
+		description:
+			'A frontend clone of facebook homepage that has user authentication from facebook account.Uses firestore to store posts that are made.',
+		key_techs: [
+			'NextJS',
+			'TailwindCSS',
+			'FireStore',
+			'NextAuth',
+			'TypeScript',
+		],
 	},
 ];

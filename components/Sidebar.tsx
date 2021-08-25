@@ -12,7 +12,7 @@ const Sidebar = () => {
 	};
 
 	return (
-		<div className='items-center justify-center p-2 text-center bg-white col-span-full md:col-span-3 rounded-2xl dark:bg-[#0f1115] shadow-custom-light dark:shadow-custom-dark'>
+		<div className='items-center justify-center p-2 text-center bg-white col-span-full md:col-span-3 rounded-2xl dark:bg-dark-500 shadow-custom-light dark:shadow-custom-dark'>
 			<Image
 				src={
 					'https://avatars.githubusercontent.com/u/65271592?s=400&u=7edb3ac66593dc688402659609cb7d6f26af4051&v=4'
@@ -27,13 +27,13 @@ const Sidebar = () => {
 			<h1 className='my-3 text-3xl font-medium tracking-wider'>
 				Pushkal Pandey
 			</h1>
-			<p className='px-2 py-2 my-3 font-bold bg-gray-200 rounded-full dark:bg-[#16181d]'>
+			<p className='px-2 py-2 my-3 font-bold bg-gray-200 rounded-full dark:bg-dark-200'>
 				Web Portfolio
 			</p>
-			<div className='flex justify-around my-4 md:w-full'>
+			<div className='flex justify-around pt-1 my-4 rounded-full md:w-full bg-gradient-to-r from-green-400 to to-blue-400'>
 				<a href='https://github.com/Alpha-Knight-Zero'>
 					<Image
-						className='cursor-pointer hover:scale-110 '
+						className='cursor-pointer hover:scale-110'
 						src='/github-fill.svg'
 						loading='lazy'
 						height={36}
@@ -51,7 +51,7 @@ const Sidebar = () => {
 				</a>
 			</div>
 			<a
-				className='flex items-center justify-center px-2 py-2 my-3 tracking-wider transition-shadow transform bg-gray-200 rounded-full dark:bg-[#16181d] group hover:bg-blue-200 hover:font-semibold whitespace-nowrap'
+				className='flex items-center justify-center px-2 py-2 my-3 tracking-wider transition-shadow transform bg-gray-200 rounded-full dark:bg-dark-200 group hover:bg-blue-200 hover:font-semibold whitespace-nowrap'
 				href=''
 			>
 				<FolderIcon className='w-6 h-6 mx-2 group-hover:scale-110' />

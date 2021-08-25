@@ -11,19 +11,19 @@ const Portfolio = () => {
 					planning to make a website that uses tenserflow.js along
 					with Next.js and PodtgreSQL.`}
 			</p>
+			<h1 className='items-center my-3 ml-2 text-xl font-bold text-green-400 underline border-green-500 md:text-2xl'>
+				My Domain Expertise
+			</h1>
 			<div
-				className='flex-grow p-4 mt-5 bg-gray-400 rounded-lg dark:bg-[#0a0b1e]'
+				className='flex-grow p-4 bg-gray-400 rounded-lg dark:bg-dark-100'
 				style={{
 					marginLeft: '-1.5rem',
 					marginRight: '-1.5rem',
 				}}
 			>
-				<h1 className='my-3 text-xl font-bold tracking-wide underline'>
-					My Domain Expertise
-				</h1>
 				<div className='grid gap-5 md:grid-cols-2'>
 					{domainsOfExpertise.map((domain) => (
-						<div className='bg-gray-200 dark:bg-[#16181d] rounded-2xl md:col-span-1'>
+						<div className='bg-gray-200 dark:bg-dark-200 rounded-2xl md:col-span-1 hover:scale-105 hover:shadow-custom-light dark:hover:shadow-custom-dark'>
 							<Domaincard domain={domain} />
 						</div>
 					))}
