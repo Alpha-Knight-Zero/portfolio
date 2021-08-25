@@ -6,9 +6,7 @@ import { useTheme } from 'next-themes';
 
 const Sidebar = () => {
 	const { theme, setTheme } = useTheme();
-	if (!theme) {
-		setTheme('light');
-	}
+	setTheme('light');
 	const changeTheme = () => {
 		theme == 'dark' ? setTheme('light') : setTheme('dark');
 	};
