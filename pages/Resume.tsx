@@ -2,7 +2,7 @@ import { frameworksandLibraries, languages } from '../data';
 import SkillBar from '../components/SkillBar';
 import { motion } from 'framer-motion';
 import { routeFade, slideUp } from './../animation';
-const Resume = () => {
+const resume = () => {
 	return (
 		<motion.div
 			className='px-6 py-2'
@@ -66,5 +66,4 @@ const Resume = () => {
 	);
 };
 
-export default Resume;
-Resume;
+export default resume;

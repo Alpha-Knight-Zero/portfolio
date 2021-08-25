@@ -6,7 +6,7 @@ import { ProjectsNavBar } from '../components/ProjectsNavBar';
 import { projects } from '../data';
 import { tech_category } from '../types';
 
-const Projects = () => {
+const project = () => {
 	const [project_cat, setProject_cat] = useState(projects);
 	const [active, setActive] = useState<tech_category | 'all'>('all');
 
@@ -64,4 +64,4 @@ const Projects = () => {
 	);
 };
 
-export default Projects;
+export default project;
