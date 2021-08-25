@@ -8,7 +8,7 @@ import { AnimatePresence } from 'framer-motion';
 
 function MyApp({ Component, pageProps, router }: AppProps) {
 	return (
-		<ThemeProvider attribute='class' defaultTheme='system'>
+		<ThemeProvider attribute='class' defaultTheme='light'>
 			<div className='grid grid-cols-12 px-6 my-4 gap-7 md:gap-4 '>
 				<Sidebar />
 				<div className='flex flex-col px-2 bg-white rounded-2xl col-span-full md:col-span-9 dark:bg-dark-500 shadow-custom-light dark:shadow-custom-dark'>

@@ -103,12 +103,10 @@ const Sidebar = () => {
 						onClick={changeTheme}
 					/>
 				) : (
-					theme == 'light' && (
-						<FiMoon
-							className='items-center w-12 h-12 py-2 mx-2 my-2 text-black hover:cursor-pointer'
-							onClick={changeTheme}
-						/>
-					)
+					<FiMoon
+						className='items-center w-12 h-12 py-2 mx-2 my-2 text-black hover:cursor-pointer'
+						onClick={changeTheme}
+					/>
 				)}
 			</div>
 		</div>
