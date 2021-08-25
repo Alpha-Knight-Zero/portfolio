@@ -7,11 +7,11 @@ import { useEffect, useState } from 'react';
 
 const Sidebar = () => {
 	const [mounted, setMounted] = useState(false);
-	const { theme, setTheme } = useTheme();
 
 	useEffect(() => setMounted(true), []);
 
 	if (!mounted) return null;
+	const { theme, setTheme } = useTheme();
 
 	const changeTheme = () => {
 		theme == 'dark' ? setTheme('light') : setTheme('dark');
