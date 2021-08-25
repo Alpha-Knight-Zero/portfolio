@@ -2,6 +2,7 @@ import { frameworksandLibraries, languages } from '../data';
 import SkillBar from '../components/SkillBar';
 import { motion } from 'framer-motion';
 import { routeFade, slideUp } from './../animation';
+import Head from 'next/head';
 const resume = () => {
 	return (
 		<motion.div
@@ -11,6 +12,12 @@ const resume = () => {
 			animate='animate'
 			exit='exit'
 		>
+			<Head>
+				<title>
+					Pushkal Pandey | Web Development | IIIT Pune|IIT
+					Pune|Fullstack
+				</title>
+			</Head>
 			<motion.div variants={slideUp} initial='initial' animate='animate'>
 				<div className='grid md:grid-cols-2 gap-x-12'>
 					<div>

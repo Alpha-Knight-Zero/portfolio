@@ -5,11 +5,11 @@ const index = ({ domains }: { domains: object }) => {
 	return (
 		<div>
 			<Head>
-				<title>Pushkal Pandey</title>
-				<meta
-					name='Pushkal Pandey - Web Portfolio'
-					content='Created by Pushkal Pandey'
-				/>
+				<title>
+					Pushkal Pandey | Web Development | IIIT Pune|IIT
+					Pune|Fullstack
+				</title>
+				
 			</Head>
 
 			<About />

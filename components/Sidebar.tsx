@@ -40,6 +40,7 @@ const Sidebar = () => {
 					<a
 						target='_blank'
 						href='https://github.com/Alpha-Knight-Zero'
+						aria-label='Github'
 					>
 						<Image
 							quality='100'
@@ -56,6 +57,7 @@ const Sidebar = () => {
 					<a
 						target='_blank'
 						href='https://www.linkedin.com/in/pushkal-pandey'
+						area-lable='Linkedin'
 					>
 						<Image
 							quality='100'

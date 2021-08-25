@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Head from 'next/head';
 import { useState } from 'react';
 import { routeFade, slideUp, staggerUp } from '../animation';
 import ProjectCard from '../components/ProjectCard';
@@ -35,6 +36,12 @@ const project = () => {
 			animate='animate'
 			exit='exit'
 		>
+			<Head>
+				<title>
+					Pushkal Pandey | Web Development | IIIT Pune|IIT
+					Pune|Fullstack
+				</title>
+			</Head>
 			<ProjectsNavBar
 				handleProjectCategory={handleProjectCategory}
 				active={active}
