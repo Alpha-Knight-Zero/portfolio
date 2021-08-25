@@ -7,16 +7,12 @@ import { useEffect, useState } from 'react';
 
 const Sidebar = () => {
 	const { theme, setTheme } = useTheme();
-
-	const [mounted, setMounted] = useState(false);
-
+	if (theme == undefined) {
+		setTheme('light');
+	}
 	const changeTheme = () => {
 		theme == 'dark' ? setTheme('light') : setTheme('dark');
 	};
-
-	useEffect(() => {
-		setMounted(true);
-	}, []);
 
 	return (
 		<div className='items-center justify-center p-2 text-center bg-white col-span-full md:col-span-3 rounded-2xl dark:bg-dark-500 shadow-custom-light dark:shadow-custom-dark'>
@@ -95,22 +91,21 @@ const Sidebar = () => {
 			>
 				Contact Me
 			</button>
-			{mounted && (
-				<div className='flex justify-around my-4'>
-					{theme == 'dark' && (
-						<FaRegLightbulb
-							className='items-center w-12 h-12 py-2 mx-2 my-2 text-yellow-400 hover:cursor-pointer '
-							onClick={changeTheme}
-						/>
-					)}
-					{theme == 'light' && (
-						<FiMoon
-							className='items-center w-12 h-12 py-2 mx-2 my-2 text-black hover:cursor-pointer'
-							onClick={changeTheme}
-						/>
-					)}
-				</div>
-			)}
+
+			<div className='flex justify-around my-4'>
+				{theme == 'dark' && (
+					<FaRegLightbulb
+						className='items-center w-12 h-12 py-2 mx-2 my-2 text-yellow-400 hover:cursor-pointer '
+						onClick={changeTheme}
+					/>
+				)}
+				{theme == 'light' && (
+					<FiMoon
+						className='items-center w-12 h-12 py-2 mx-2 my-2 text-black hover:cursor-pointer'
+						onClick={changeTheme}
+					/>
+				)}
+			</div>
 		</div>
 	);
 };
