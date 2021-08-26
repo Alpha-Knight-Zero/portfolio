@@ -6,8 +6,7 @@ const index = ({ domains }: { domains: object }) => {
 		<div>
 			<Head>
 				<title>
-					Pushkal Pandey | Web Development | IIIT Pune|IIT
-					Pune|Fullstack
+					Pushkal Pandey | Web Development | IIIT Pune
 				</title>
 				
 			</Head>
