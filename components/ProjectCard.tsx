@@ -25,7 +25,7 @@ const ProjectCard = ({
 	return (
 		<div className='group'>
 			<Image
-				quality='100'
+				quality='85'
 				src={thumbnail}
 				alt={title}
 				className='cursor-pointer '
@@ -45,7 +45,7 @@ const ProjectCard = ({
 					>
 						<motion.div variants={slideUp} className="border-4 border-gray-100">
 							<Image
-								quality='100'
+								quality='85'
 								src={thumbnail}
 								alt={title}
 								className='cursor-pointer'
