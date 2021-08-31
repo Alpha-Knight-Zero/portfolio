@@ -155,7 +155,7 @@ export const projects: IProject[] = [
 		repo_url: 'https://github.com/Alpha-Knight-Zero/blogr-nextjs-prisma',
 		thumbnail: '/thumbnails/Prisma_blog.png',
 		category: ['ReactJS', 'PostgreSQL'],
-		deployment_url: 'hhttps://blogr-nextjs-prisma-theta.vercel.app/',
+		deployment_url: 'https://blogr-nextjs-prisma-theta.vercel.app/',
 		description:
 			'A barebones blog site that has user authentication and is connected to an SQL database.',
 		key_techs: ['NextJS', 'Prisma', 'PostgreSQL', 'NextAuth', 'TypeScript'],
