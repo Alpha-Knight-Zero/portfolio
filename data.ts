@@ -150,16 +150,16 @@ export const projects: IProject[] = [
 		description: 'My Web Porfolio. ',
 		key_techs: ['NextJS', 'TailwindCSS', 'TypeScript', 'Framer'],
 	},
-	{
-		title: 'Bloogg',
-		repo_url: 'https://github.com/Alpha-Knight-Zero/blogr-nextjs-prisma',
-		thumbnail: '/thumbnails/Prisma_blog.png',
-		category: ['ReactJS', 'PostgreSQL'],
-		deployment_url: 'https://blogr-nextjs-prisma-theta.vercel.app/',
-		description:
-			'A barebones blog site that has user authentication and is connected to an SQL database.',
-		key_techs: ['NextJS', 'Prisma', 'PostgreSQL', 'NextAuth', 'TypeScript'],
-	},
+// 	{
+// 		title: 'Bloogg',
+// 		repo_url: 'https://github.com/Alpha-Knight-Zero/blogr-nextjs-prisma',
+// 		thumbnail: '/thumbnails/Prisma_blog.png',
+// 		category: ['ReactJS', 'PostgreSQL'],
+// 		deployment_url: 'https://blogr-nextjs-prisma-theta.vercel.app/',
+// 		description:
+// 			'A barebones blog site that has user authentication and is connected to an SQL database.',
+// 		key_techs: ['NextJS', 'Prisma', 'PostgreSQL', 'NextAuth', 'TypeScript'],
+// 	},
 	{
 		title: 'Hulu-PP',
 		repo_url: 'https://github.com/Alpha-Knight-Zero/hulu-pp',
