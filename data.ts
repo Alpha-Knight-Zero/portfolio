@@ -15,24 +15,24 @@ export const domainsOfExpertise: IDomains[] = [
 	{
 		title: 'Backend Development',
 		description:
-			'I am capable of handaling and managing databases and servers using <b>PostgreSQL</b>, <b>MySQL</b>, along with <b>Node.js</b> and <b>Express.js</b>.',
+			'I am capable of handaling and managing databases and servers using <b>PostgreSQL</b>, <b>MySQL</b>, along with <b>Node.js</b>, <b>Express.js</b> as well as <b>Docker</b>.',
 		Icon: FaServer,
 	},
 	{
 		title: 'API Development',
 		description:
-			'I can develop robust REST API using <b>Node.js</b> and <b>Express.js</b>. I can also use GraphQL to develop APIs.',
+			'I can develop robust REST API using <b>Node.js</b> and <b>Express.js</b>. I can also use GraphQL as well as Docker to develop and deploy APIs.',
 		Icon: AiOutlineApi,
 	},
 	{
 		title: 'Competitive Coding',
-		description: 'I am currently a 3-star coder on CodeChef.',
+		description: 'My maximum rating has reached 4-star coder on CodeChef.',
 		Icon: MdDeveloperMode,
 	},
 	{
 		title: 'Machine/Deep Learning',
 		description:
-			'I can currently use <b>Tensorflow</b>, <b>Numpy</b>, <b>Scipy</b>,<b>Scikit Learn</b> and a host of other tools to make informative visualizations and do data analysis. I can also train many moderately-complex ML/Dl models.',
+			'I can currently use <b>Tensorflow</b>, <b>Numpy</b>, <b>Scipy</b>,<b>Scikit Learn</b> and a host of other tools to make informative visualizations and do data analysis. I can also train many complex ML/Dl models. I completed a research in Deep lEarning on plant diseases. I have deployed a car damage detection model trained from scratch (usin TF Object Detection API and manually collected and labelled images) using TF Sever and docker as an online API.',
 		Icon: RiDatabaseLine,
 	},
 	{
